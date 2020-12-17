@@ -3,7 +3,7 @@ streams:
 
   stream:
     type: topic
-    source: /vision_landing/image_out
+    source: /vbl/image_out
     mountpoint: /cam
     caps: video/x-raw,width=960,height=600
-    bitrate: 500
+    bitrate: 2000
